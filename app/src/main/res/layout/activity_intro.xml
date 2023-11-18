@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".auth.IntroActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-208dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loginbg" />
+
+        <!--로그인 버튼-->
+
+
+        <!--회원가입 버튼-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/upperbg" />
+
+        <Button
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="158dp"
+            android:background="@drawable/background_radius"
+            android:text="Log in"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="87dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/background_radius"
+            android:text="Make account"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <!--로그아웃 버튼-->
+        <Button
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/background_radius"
+            android:text="Log in as non-members"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
